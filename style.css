@@ -2,3 +2,120 @@
 	margin:0px;
 	padding:0px;
 }
+
+body{
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+}
+
+.clearFix:after{
+	content:"";
+	display:table;
+	clear:both;}
+
+.container{
+	width:1920px;
+	margin: 0 auto;
+}
+
+.startPage{
+	height:725px;
+	background-image:url(img/bgMain.jpg);
+}
+
+.header{
+	top:13px;
+	height:83px;
+	background-image:url(img/rectangle1.png);
+	position:relative;
+}
+
+.logo{
+	position: absolute;
+    right: 1276px;
+    top: 19px;
+}
+
+.nameHistorical{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 22.36px;
+	letter-spacing: 0.77px;
+}
+
+.nameGAMES{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 22.36px;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+}
+
+.imgTel{
+	position: absolute;
+    top: 28px;
+    right: 1101px;
+}
+
+.tel{
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+	letter-spacing: 0.36px;
+	
+	position: absolute;
+    right: 988px;
+    top: 36px;
+}
+
+.email{
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+
+	letter-spacing: 0.36px;
+}
+
+.blockSearch{
+	}
+	
+.searchField{
+	}
+	
+.txtSearch{
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+
+	letter-spacing: 0.36px;
+}
+
+.breakField{
+	
+}
+	
+.execSearch{
+	}
+	
+.menuList{
+	list-style-type:none;
+}
+
+.menuLink{
+	color: #000000;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+	text-decoration:none;
+}
+
+.menuLinkActiv{
+	color: #ffffff;
+	letter-spacing: 0.36px;
+}
