@@ -132,7 +132,8 @@ body{
     display: inline;
     position: relative;
     left: 703px;
-    top: 32px;
+    top: 39px;
+	padding-right: 20px;
 	
 }
 
@@ -142,16 +143,46 @@ body{
 	height: 16px;
 
 	font-family: "Roboto Condensed";
-	font-size: 17px;
+	font-size: 19px;
 	font-weight: 400;
 	line-height: 22.36px;
 	/* Text style for "Home" */
 	color: #ffffff;
 	letter-spacing: 0.36px;
-	word-spacing: 30px;
+	list-style: none;
 }
 
 .menuLink{
 	text-decoration:none;
 	color: #000000;
+}
+
+.textSmall{
+	padding-top: 309px;
+    text-align: center;
+    width: 107px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.18px;
+}
+
+.centralText{
+	display:flex;
+}
+
+.mainText{
+	/* Style for "Morbi in n" */
+	width: 576px;
+	height: 48px;
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 48px;
+	/* Text style for "M, orbi in" */
+	letter-spacing: 0.6px;
 }
