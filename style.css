@@ -22,6 +22,7 @@ body{
 .startPage{
 	height:725px;
 	background-image:url(img/bgMain.jpg);
+	display: flow-root;
 }
 
 .header{
@@ -126,6 +127,10 @@ body{
     margin-top: -20px;
     margin-left: 276px;
 }
+
+.menu{
+	height:58px;
+}
 	
 .menuList{
 	list-style-type: none;
@@ -158,8 +163,9 @@ body{
 }
 
 .textSmall{
-	padding-top: 309px;
-    text-align: center;
+	white-space: nowrap;
+	padding-top: 165px;
+	padding-left: 906px;
     width: 107px;
     height: 18px;
     color: #ffffff;
@@ -171,10 +177,12 @@ body{
 }
 
 .centralText{
-	display:flex;
+	display:block;
 }
 
 .mainText{
+	white-space: nowrap;
+	padding-left: 670px;
 	/* Style for "Morbi in n" */
 	width: 576px;
 	height: 48px;
@@ -185,4 +193,117 @@ body{
 	line-height: 48px;
 	/* Text style for "M, orbi in" */
 	letter-spacing: 0.6px;
+}
+
+.dash {
+	width: 80px;
+    padding-top: 16px;
+    padding-left: 917px;
+}
+
+.socialNets{
+	display: flex;
+    height: 40px;
+    margin-left: 860px;
+    margin-top: 127px;
+	margin-bottom: 146px;
+}
+
+.ring1{
+	z-index: 1;
+    padding-right: 10px;
+
+}
+
+.facebook-logo{
+	z-index:2;
+	position: absolute;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.twitter-logo-silhouette{
+	z-index:2;
+	position: absolute;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+
+.rss-feed-suscription-button-symbol-for-interface{
+	z-index:2;
+	position: absolute;
+    padding-left: 14px;
+    padding-top: 12px;
+}
+
+.vk-social-network-logo{
+	z-index:2;
+	position: absolute;
+    padding-left: 11px;
+    padding-top: 16px;
+}
+
+.aboutUs{
+	display:flex;
+	height:500px;
+}
+
+.aboutH3{
+	/* Style for "About Us!" */
+	white-space:nowrap;
+	width: 169px;
+	height: 28px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	position: absolute;
+    padding-left: 475px;
+    padding-top: 75px;
+}
+
+.aboutH2{
+	/* Style for "Lorem Ipsu" */
+	white-space:nowrap;
+	width: 301px;
+	height: 45px;
+	color: #f44336;
+	font-family: "Arial - Bold MT";
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 48px;
+	/* Text style for "Lorem Ipsu" */
+	letter-spacing: 0.48px;
+	position: absolute;
+    padding-left: 475px;
+    padding-top: 106px;
+}
+
+.aboutParagraph{
+	/* Style for "Nemo enim" */
+	width: 398px;
+	height: 203px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "Nemo enim" */
+	letter-spacing: 0.12px;
+	position: absolute;
+    padding-left: 475px;
+    padding-top: 158px;
+}
+
+.girlWithHook{
+	float: left;
+    position: absolute;
+    padding-top: 83px;
+    padding-left: 906px;
+}
+
+.services{
+	display:flex;
+	height:762px;
 }
