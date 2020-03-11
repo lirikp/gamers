@@ -307,3 +307,155 @@ body{
 	display:flex;
 	height:762px;
 }
+.nameServ{
+	width: 149px;
+    height: 29px;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 92px;
+    margin-left: 888px;
+	position: absolute;
+}
+
+.headerRed{
+	/* Style for "Repreh Qui" */
+	white-space:nowrap;
+	width: 216px;
+	height: 18px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "Repreh Qui" */
+	letter-spacing: 0.16px;
+	position: absolute;
+    margin-top: 212px;
+    margin-left: 533px;
+}
+
+.textRed{
+	/* Style for "Itaque ear" */
+	width: 282px;
+	height: 51px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	/* Text style for "Itaque ear" */
+	letter-spacing: 0.12px;
+	position: absolute;
+    margin-left: 447px;
+    margin-top: 248px;
+}
+
+.header2{
+	/* Style for "Aut Perfer" */
+	white-space:nowrap;
+	width: 206px;
+	height: 14px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "Aut Perfer" */
+	letter-spacing: 0.16px;
+	position: absolute;
+    margin-left: 542px;
+    margin-top: 385px;
+}
+
+.text2{
+	/* Style for "Itaque ear" */
+	width: 282px;
+	height: 51px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	/* Text style for "Itaque ear" */
+	letter-spacing: 0.12px;
+	position: absolute;
+    margin-left: 467px;
+    margin-top: 419px;
+}
+.header3{
+	position: absolute;
+    margin-left: 529px;
+    margin-top: 560px;
+}
+
+.text3{
+	position: absolute;
+    margin-left: 467px;
+    margin-top: 594px;
+}
+.header4{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 212px;
+}
+
+.text4{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 248px;
+}
+
+.header5{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 386px;
+}
+
+.text5{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 422px;
+}
+.header6{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 560px;
+}
+
+.text6{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 596px;
+}
+
+.AllElips{
+	position:absolute;
+	margin-top:208px;
+	margin-left:815px;
+	height:448px;
+	
+}
+
+.gallery{
+	display:flex;
+	height:889px;
+}
+
+.nameGallery{
+	/* Style for "Our Galler" */
+	width: 201px;
+	height: 37px;
+	opacity: -1;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 48px;
+	position:absolute;
+	margin-top:91px;
+	margin-left:858px;
+}
+
