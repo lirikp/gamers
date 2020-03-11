@@ -448,7 +448,7 @@ body{
 	/* Style for "Our Galler" */
 	width: 201px;
 	height: 37px;
-	opacity: -1;
+	white-space:nowrap;
 	color: #f44336;
 	font-family: Poppins;
 	font-size: 36px;
@@ -459,3 +459,57 @@ body{
 	margin-left:858px;
 }
 
+.imgAssasin{
+	position: absolute;
+    margin-left: 374px;
+    margin-top: 222px;
+    height: 483px
+}
+
+.frame1{
+	/* Style for "Buy" */
+	width: 26px;
+	height: 15px;
+	
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.14px;
+	position: absolute;
+    margin-top: 668px;
+    margin-left: 497px;
+    height: 15px;
+}
+
+.imgTombraider{
+	position: absolute;
+    margin-left: 674px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame2{
+    margin-left: 796px;
+}
+
+.imgRyse_son_of_rome{
+	position: absolute;
+    margin-left: 974px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame3{
+    margin-left: 1096px;
+}
+
+.imgWarcraft{
+	position: absolute;
+    margin-left: 1274px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame4{
+    margin-left: 1396px;
+}
