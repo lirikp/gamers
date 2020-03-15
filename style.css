@@ -3,10 +3,12 @@
 	padding:0px;
 }
 
-body{
+html, body{
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Poppins', sans-serif;
 	/*font-family: 'Roboto Condensed', sans-serif;*/
+	height: 100%;
+	background-color:#f7f7f7;
 }
 
 .clearFix:after{
@@ -27,8 +29,10 @@ body{
 
 .header{
 	margin-top: 13px;
-    height: 83px;
-    background-image: url(img/rectangle1.png);
+	width: 1920px;
+	height: 83px;
+	background-color: #000000;
+	opacity: 0.7;
     display: flex;
     justify-content: flex-start;
 }
@@ -589,7 +593,7 @@ body{
 	margin-left:1509px;
 }
 
-.right{
+:;
 	text-decoration:none;
 	width: 11px;
 	height: 17px;
@@ -601,4 +605,11 @@ body{
 	
 	margin-top:315px;
 	margin-left:1522px;
+
+
+.footer {
+	width:1922px;
+	higher:71px;
+	background-color: #000000;
+opacity: -1;
 }
