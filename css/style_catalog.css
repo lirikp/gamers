@@ -21,7 +21,7 @@ clear:both;}
 	min-height: 100%;
 	/* Style for "Слой 5" */
 	
-	height: 4890px;
+	height: 3400px;
 	
 }
 
@@ -439,6 +439,7 @@ clear:both;}
 	position: absolute;
     margin-top: -40px;
 	margin-left:115px;
+	padding-left:10px;
 	width: 471px;
 	height: 47px;
 	border: 1px solid #000000;
@@ -448,6 +449,7 @@ clear:both;}
 	position: absolute;
     margin-top: 42px;
 	margin-left:115px;
+	padding-left:10px;
 	width: 471px;
 	height: 47px;
 	border: 1px solid #000000;
@@ -460,14 +462,24 @@ clear:both;}
 	position: absolute;
     margin-top: 126px;
 	margin-left:115px;
+	padding-left:10px;
+	padding-bottom:95px;
 }
 
-.btnContactUs{}
+.btnContactUs{
+	margin-top:276px;
+	margin-left:115px;
+	float: left;
+	/* Style for "Прямоуголь" */
+width: 140px;
+height: 39px;
+background-color: #f44336;
+}
 
 .caseMap{
 	width:970px;
 	height:440px;
-	display:flex;
+	display:inline;
 	position:relative;
 	float:left;
 	margin-top:174px;
@@ -483,6 +495,19 @@ clear:both;}
 	font-size: 36px;
 	font-weight: 500;
 	line-height: 48px;
+	margin: 0px 40%;
+    position: relative;
+	
+}
+
+.map{
+	margin: 47px auto;
+    float: left;
+}
+
+.clr{
+	display:block;
+	margin-top:71px;
 }
 
 .footer {
