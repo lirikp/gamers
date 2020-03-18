@@ -563,6 +563,73 @@ clear:both;}
 	margin-left:3px;
 }
 
+.product{
+	width:970px;
+	height:414px;
+	margin-top: 206px;
+    margin-left: 446px;
+}
+
+.fotoProduct{
+	width:470px
+	height:385px;
+	float:left;
+}
+.detailProduct{
+	weight:470px;
+	height:414px;
+	float:left;
+}
+.headerProduct{
+	/* Style for "Assasin’s" */
+	width: 291px;
+	height: 75px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	/* Text style for ", Rogue" */
+	
+	margin: 0 auto;
+	
+}
+.headerProductExt{
+	color: #f44336;
+}
+
+.priceProduct{
+	/* Style for "$29.99" */
+	width: 187px;
+	height: 56px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 62px;
+	font-weight: 300;
+	line-height: 48.02px;
+}
+
+.btnSearchProduct{
+	/* Style for "Прямоуголь" */
+	width: 470px;
+	height: 62px;
+	background-color: #f44336;
+}
+
+.productText{
+	/* Style for "The plot i" */
+	width: 463px;
+	height: 153px;
+	
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "The plot i" */
+	letter-spacing: 0.12px;
+}
+
 @media screen and (max-width:1940px){
 	.containermy{
 		height:4100px;
