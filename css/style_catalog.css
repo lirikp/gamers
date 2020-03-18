@@ -174,13 +174,16 @@ clear:both;}
 	color: #ffffff;
 	letter-spacing: 0.36px;
 	list-style: none;
+	
 }
 
 .menuLink{
 	text-decoration:none;
 	color: #000000;
 }
-
+.menuLinkAvtive{
+	text-decoration:none;
+	}
 .lineBlack{
 	height: 0.5px;
     width: 1920px;
