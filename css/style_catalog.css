@@ -128,7 +128,7 @@ clear:both;}
     padding-left: 7px;
     margin-left: -1px;
     margin-top: -1px;
-
+	
 }
 
 .btnSearch {
@@ -583,7 +583,7 @@ clear:both;}
 .headerProduct{
 	/* Style for "Assasin’s" */
 	width: 291px;
-	height: 75px;
+	height: 37px;
 	color: #000000;
 	font-family: Poppins;
 	font-size: 36px;
@@ -596,26 +596,35 @@ clear:both;}
 }
 .headerProductExt{
 	color: #f44336;
+	text-align: center;
+	height: 57px;
 }
 
 .priceProduct{
 	/* Style for "$29.99" */
+	/* Style for "$29.99" */
 	width: 187px;
-	height: 56px;
+	height: 68px;
 	color: #000000;
 	font-family: Poppins;
 	font-size: 62px;
 	font-weight: 300;
 	line-height: 48.02px;
+	margin: 0 auto;
 }
-
-.btnSearchProduct{
+.btnBuyProduct{
 	/* Style for "Прямоуголь" */
 	width: 470px;
 	height: 62px;
 	background-color: #f44336;
+	
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.3px;
 }
-
 .productText{
 	/* Style for "The plot i" */
 	width: 463px;
@@ -629,6 +638,75 @@ clear:both;}
 	/* Text style for "The plot i" */
 	letter-spacing: 0.12px;
 }
+
+.similarGames{
+	width: 1920px;
+	height: 684px;
+	background-color: #e3e3e3;
+	
+	display: inline-block;
+	margin-top: 178px;
+	
+}
+.headTextSimilar{
+	width: 258px;
+	height: 38px;
+	margin:49px auto;
+	margin-bottom:80px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	
+}
+.blockOutSimilar{
+	margin:0 auto;
+	float:left;
+	width: 1174px;
+	margin: 0% 19%;
+}
+.blockSimilar{
+	width: 270px;
+	height: 378px;
+	float: left;
+    margin: 0% 1%;
+}
+.imgSg{
+	
+	/* Style for "81ppB9HHu7" */
+	width: 270px;
+	height: 378px;
+	
+	
+}
+.pSG{
+	/* Style for "MIDDLE-EAR" */
+	height: 32px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.14px;
+	text-align: center;
+}
+.btnBuySG{
+	width: 130px;
+	height: 30px;
+	background-color: #f44336;
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.14px;
+	margin: 0 25%;
+	
+}
+
 
 @media screen and (max-width:1940px){
 	.containermy{
@@ -697,8 +775,8 @@ clear:both;}
 	
 	.row{
 		float: left;
-	margin: 0% 0%;
-	width:50%;
+		margin: 0% 0%;
+		width:50%;
 	}
 	
 	.textGallery {
