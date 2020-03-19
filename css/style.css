@@ -1,0 +1,1255 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+html, body{
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+	background-color:#f7f7f7;
+}
+
+.clearFix:after{
+	content:"";
+	display:table;
+clear:both;}
+
+.containermy{
+	max-width:1920px;
+	min-width:970px;
+	margin: 0 auto;
+	min-height: 100%;
+	/* Style for "Слой 5" */
+	
+	position:relative;
+	
+}
+.startPage{
+	height:725px;
+	background-image:url(../img/bgMain.jpg);
+	display: flow-root;
+}
+.header{
+	margin-top: 12px;
+	width: 1920px;
+	height: 83px;
+	background-color: #000000;
+	opacity: 0.7;
+	display:flex;
+}
+.headerIn{
+	
+    
+    margin: 0 25%;
+	display:inline-block;
+	min-width:971px;
+}
+.nameHistorical{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 22.36px;
+	letter-spacing: 0.77px;
+	float:left;
+	margin-top: 20px;
+}
+.nameGAMES{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 22.36px;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+	position: absolute;
+    float:left;
+    margin-top: 45px;
+}
+.imgTel{
+	width: 17px;
+    height: 25px;
+    margin-top: 27px;
+    margin-left: 158px;
+	float:left;
+}
+.tel{
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+	letter-spacing: 0.36px;
+	margin-left: 6px;
+    margin-top: 34px;
+	float:left;
+}
+.imgEmail{
+	width: 25px;
+    height: 19px;
+    margin-top: 32px;
+    margin-left: 39px;
+	float:left;
+}
+.emailAdress{
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+	
+	letter-spacing: 0.36px;
+	
+	margin-top: 35px;
+    margin-left: 14px;
+	float:left;
+}
+.formSearch{
+	width: 208px;
+	height: 38px;
+	border: 1px solid #ffffff;
+	margin-top:23px;
+	margin-left:38px;
+	display:block;
+	float:left;
+	margin: 21px 16px;
+}
+.textSearch{
+	width: 158px;
+    height: 104%;
+    background-color: #000000;
+    opacity: 0.7;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36px;
+    border: 1px solid;
+    padding-left: 7px;
+    margin-left: -1px;
+    margin-top: -1px;
+	
+}
+.btnSearch {
+    background:url(../img/findIcon.png) no-repeat;
+    cursor:pointer;
+    width: 18px;
+    height: 19px;
+    border: none;
+	
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+
+.textSmall{
+	white-space: nowrap;
+	padding-top: 165px;
+	padding-left: 906px;
+    width: 107px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.18px;
+}
+.centralText{
+	display:block;
+}
+.mainText{
+	white-space: nowrap;
+	padding-left: 670px;
+	/* Style for "Morbi in n" */
+	width: 576px;
+	height: 48px;
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 48px;
+	/* Text style for "M, orbi in" */
+	letter-spacing: 0.6px;
+}
+.dash {
+	width: 80px;
+    padding-top: 16px;
+    padding-left: 917px;
+}
+.socialNets{
+	display: flex;
+    height: 40px;
+    margin-left: 860px;
+    margin-top: 127px;
+	margin-bottom: 146px;
+}
+.ring1{
+	z-index: 1;
+    padding-right: 10px;
+
+}
+.facebook-logo{
+	z-index:2;
+	position: absolute;
+    padding-left: 16px;
+    padding-top: 12px;
+}
+.twitter-logo-silhouette{
+	z-index:2;
+	position: absolute;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+.rss-feed-suscription-button-symbol-for-interface{
+	z-index:2;
+	position: absolute;
+    padding-left: 14px;
+    padding-top: 12px;
+}
+.vk-social-network-logo{
+	z-index:2;
+	position: absolute;
+    padding-left: 11px;
+    padding-top: 16px;
+}
+.aboutUs{
+	display:flex;
+	height:500px;
+}
+.aboutH3{
+	/* Style for "About Us!" */
+	white-space:nowrap;
+	width: 169px;
+	height: 28px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	position: absolute;
+    padding-left: 475px;
+    padding-top: 75px;
+}
+.aboutH2{
+	/* Style for "Lorem Ipsu" */
+	white-space:nowrap;
+	width: 301px;
+	height: 45px;
+	color: #f44336;
+	font-family: "Arial - Bold MT";
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 48px;
+	/* Text style for "Lorem Ipsu" */
+	letter-spacing: 0.48px;
+	position: absolute;
+    padding-left: 475px;
+    padding-top: 106px;
+}
+.aboutParagraph{
+	/* Style for "Nemo enim" */
+	width: 398px;
+	height: 203px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "Nemo enim" */
+	letter-spacing: 0.12px;
+	position: absolute;
+    padding-left: 475px;
+    padding-top: 158px;
+}
+.girlWithHook{
+	float: left;
+    position: absolute;
+    padding-top: 83px;
+    padding-left: 906px;
+}
+.services{
+	display:flex;
+	height:762px;
+}
+.nameServ{
+	width: 149px;
+    height: 29px;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 92px;
+    margin-left: 888px;
+	position: absolute;
+}
+.headerRed{
+	/* Style for "Repreh Qui" */
+	white-space:nowrap;
+	width: 216px;
+	height: 18px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "Repreh Qui" */
+	letter-spacing: 0.16px;
+	position: absolute;
+    margin-top: 212px;
+    margin-left: 533px;
+}
+.textRed{
+	/* Style for "Itaque ear" */
+	width: 282px;
+	height: 51px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	/* Text style for "Itaque ear" */
+	letter-spacing: 0.12px;
+	position: absolute;
+    margin-left: 447px;
+    margin-top: 248px;
+}
+.header2{
+	/* Style for "Aut Perfer" */
+	white-space:nowrap;
+	width: 206px;
+	height: 14px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "Aut Perfer" */
+	letter-spacing: 0.16px;
+	position: absolute;
+    margin-left: 542px;
+    margin-top: 385px;
+}
+.text2{
+	/* Style for "Itaque ear" */
+	width: 282px;
+	height: 51px;
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	/* Text style for "Itaque ear" */
+	letter-spacing: 0.12px;
+	position: absolute;
+    margin-left: 467px;
+    margin-top: 419px;
+}
+.header3{
+	position: absolute;
+    margin-left: 529px;
+    margin-top: 560px;
+}
+.text3{
+	position: absolute;
+    margin-left: 467px;
+    margin-top: 594px;
+}
+.header4{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 212px;
+}
+.text4{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 248px;
+}
+.header5{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 386px;
+}
+.text5{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 422px;
+}
+.header6{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 560px;
+}
+.text6{
+	position: absolute;
+    margin-left: 1177px;
+    margin-top: 596px;
+}
+.AllElips{
+	position:absolute;
+	margin-top:208px;
+	margin-left:815px;
+	height:448px;
+	
+}
+.gallery{
+	display:flex;
+	height:889px;
+}
+.nameGallery{
+	/* Style for "Our Galler" */
+	width: 201px;
+	height: 37px;
+	white-space:nowrap;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 48px;
+	position:absolute;
+	margin-top:91px;
+	margin-left:858px;
+}
+.imgAssasin{
+	position: absolute;
+    margin-left: 374px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame1{
+	/* Style for "Buy" */
+	width: 26px;
+	height: 15px;
+	
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.14px;
+	position: absolute;
+    margin-top: 668px;
+    margin-left: 497px;
+    height: 15px;
+}
+.imgTombraider{
+	position: absolute;
+    margin-left: 674px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame2{
+    margin-left: 796px;
+}
+.imgRyse_son_of_rome{
+	position: absolute;
+    margin-left: 974px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame3{
+    margin-left: 1096px;
+}
+.imgWarcraft{
+	position: absolute;
+    margin-left: 1274px;
+    margin-top: 222px;
+    height: 483px
+}
+.frame4{
+    margin-left: 1396px;
+}
+.slider{
+	display:flex;
+	background:url(img/testimonial.png);
+	height:537px;
+	
+}
+.textSlider{
+	/* Style for "Testimonia" */
+	width: 277px;
+	height: 39px;
+	/*opacity: -1;*/
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 48px;
+	position:absolute;
+	margin-top:85px;
+	margin-left:820px;
+	height:39px;
+}
+.icon2{
+	/* Style for "иконка 2" */
+	width: 45px;
+	height: 38px;
+	
+	opacity: 0.7;
+	position:absolute;
+	margin-top:214px;
+	margin-left:931px;
+}
+.restangle1{
+	/* Style for "Прямоуголь" */
+	width: 37px;
+	height: 37px;
+	border: 1px solid #ffffff;
+	
+	position:absolute;
+	margin-top:312px;
+	margin-left:377px;
+}
+.left{
+	/* Style for "" */
+	width: 11px;
+	height: 17px;
+	text-decoration:none;
+	color: #ffffff;
+	font-family: "Font Awesome";
+	font-size: 30px;
+	font-weight: 400;
+	position:absolute;
+	margin-top:315px;
+	margin-left:387px;
+}
+.sliderTextAutor{
+	text-align:center;
+	width: 935px;
+	height: 136px;
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-size: 14px;
+	font-weight: 300;
+	position:absolute;
+	margin-top:303px;
+	margin-left:493px;
+}
+.restangle2{
+	margin-left:1509px;
+
+
+
+	text-decoration:none;
+	width: 11px;
+	height: 17px;
+	
+	color: #ffffff;
+	font-family: "Font Awesome";
+	font-size: 30px;
+	font-weight: 400;
+	
+	margin-top:315px;
+	margin-left:1522px;
+}
+
+
+
+
+ul {
+	margin-top:32px;
+	text-align: center;
+}
+ul li{
+	font-family: "Roboto Condensed";
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 22.36px;
+	opacity: 0.9;
+	list-style-type: none;
+    left: 703px;
+    top: 39px;
+	padding-right: 20px;
+	display: inline-block;
+}
+.menuListActive{
+	/* Style for "Home" */
+	/*width: 511px;
+	height: 16px;*/
+	font-family: "Roboto Condensed";
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 22.36px;
+	/* Text style for "Home" */
+	color: #ffffff;
+	letter-spacing: 0.36px;
+	list-style: none;
+	
+}
+.menuLink{
+	text-decoration:none;
+	color: #c5c5c5;
+	display:block;
+}
+.menuLinkAvtive{
+	text-decoration:none;
+	display:block;
+	color:#000000;
+}
+ul li a {
+    color: #c5c5c5; /* Цвет ссылок */
+}
+ul li a :visited {
+    color: #c5c5c5; /* Цвет посещенных ссылок */
+}
+ul li a :active {
+    color: #000000; /* Цвет активных ссылок */
+}
+.lineBlack{
+	height: 0.5px;
+    width: 100%;
+    border-color: black;
+    border: 1px solid;
+    margin-top: 30px;
+    display: block;
+	background-color: #000000
+}
+
+.blockGallery{
+	width: 1173px;
+    height: 1172px;
+    margin: 105px 20%;
+	display: block;
+}
+.row{
+	float: left;
+	margin: 0% 0%;
+	width:25%;
+}
+.textGallery{
+	/* Style for "Our Galler" */
+	width: 202px;
+	height: 37px;
+	
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	display:inline-block;
+	margin: 37px 42%;
+	white-space: nowrap;
+	
+}
+.thumbnail{
+	width:271px;
+	height:482px;
+	background-color:#f7f7f7;
+	border:none;
+	padding:0px;
+}
+.galleryName{
+	/* Style for "battlefiel" */
+	width: 90px;
+	height: 12px;
+	opacity: 1;
+	color: #000000;
+	text-transform:uppercase;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-transform: uppercase;
+	/* Text style for "battlefiel" */
+	letter-spacing: 0.14px;
+	margin: 0 auto;
+    margin-top: 19px
+	display: inline-block;
+	margin-top: 19px
+	margin-bottom:106px;
+}
+.btnMy{
+	width: 130px;
+	height: 30px;
+	background-color: #f44336;
+	border-radius: 0px;
+	border: 0px transparent;
+	display:inline-block;
+	margin-top: 30px;
+    margin-left: 54px;
+}
+.moreGames{
+	width: 208px;
+	height: 38px;
+	border: 2px solid #000000;
+	float: left;
+	margin: 68px 41%;
+	position:relative;
+}
+.moreGS{
+	width: 123px;
+	height: 16px;
+	color: #000000;
+	font-family: "Roboto Condensed";
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 22.36px;
+	/* Text style for "Show more" */
+	letter-spacing: 0.36px;
+	white-space:nowrap;
+	float:left;
+	margin:6px 16%;
+}
+
+.formDiscount{
+	float:none;
+	display:inline-flex;
+}
+.discountBanner{
+	position: relative;
+    float: left;
+}
+.textDiscount{
+	width: 91px;
+	height: 14px;
+	color: #010101;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 36px;
+	text-transform: uppercase;
+	position:absolute;
+	margin-top: 152px;
+    margin-left: 114px;
+}
+.nameOfDiscount{
+	width: 307px;
+	height: 27px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	position: absolute;
+    margin-top: 183px;
+    margin-left: 112px;
+}
+.prise{
+	/* Style for "$14.44 / $" */
+	width: 323px;
+	height: 56px;
+	color: #8c8c8c;
+	font-family: Poppins;
+	
+	font-weight: 300;
+	line-height: 48px;
+	/* Text style for "$, 14.44" */
+	color: #000000;
+	font-size: 62px;
+	
+	position: absolute;
+    margin-top: 272px;
+    margin-left: 115px;
+}
+.priseSlash{
+	/* Text style for "$28.90" */
+	opacity:0.6;
+	font-size: 36px;
+	text-decoration: line-through;
+	margin-left: 297px;
+}
+.btnDiscount{
+	/* Style for "$15.96 / $" */
+	width: 265px;
+	height: 62px;
+	border: 1px solid #000000;
+	background-color: #f44336;
+	position: absolute;
+    margin-top: 347px;
+    margin-left: 115px
+}
+.btnPriceText{
+	width: 55px;
+	height: 30px;
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.3px;
+	position: absolute;
+    margin: 11px 34%;
+}
+.discountBanner{
+	width: 960px;
+	height: 562px;
+}
+
+
+.contactUs{
+	padding-top: 98px;
+}
+.headerContactUs{
+    text-align: center;
+    /* width: 198px; */
+    /* height: 27px; */
+    /* opacity: -1; */
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+	margin: 98px auto;
+}
+.contactUsOutBlock{
+	width: 970px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+	margin-bottom: 104px;
+}
+.contactUsBlockIn1{
+	width: 386px;
+    height: auto;
+    display: grid;
+    float: left;
+}
+.contactUsBlockIn2{
+	float: left;
+    width: :472px;
+    height: 342px;
+	margin-left: 115px;
+	display: inline-block;
+}
+.text1{
+	/* Style for "Get in tou" */
+	width: 201px;
+	height: 20px;
+	white-space:nowrap;
+	color: #f44336;
+	font-family: "Roboto Condensed";
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 48px;
+	margin-left: 3px;
+}
+.address{
+	/* Style for "Lorem ipsu" */
+	width: 386px;
+	height: 201px;
+	
+	color: #000000;
+	font-family: "Roboto Condensed";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 17px;
+	
+}
+.field1{
+	/* Text style for "" */
+	color: #9e9e9e;
+	
+}
+.field2{
+	/* Text style for "mail@examp" */
+	color: #f44336;
+}
+.nameField{
+	/* Style for "Прямоуголь" */
+	width: 471px;
+	height: 47px;
+	border: 1px solid #000000;
+	background-color: #f7f7f7;
+	margin-bottom: 24px;
+	
+}
+.emailField{
+	width: 471px;
+	height: 47px;
+	border: 1px solid #000000;
+	background-color: #f7f7f7;
+	margin-bottom: 24px;
+	
+}
+.messageField{
+	/* Style for "Прямоуголь" */
+	width: 471px;
+	height: 138px;
+	border: 1px solid #000000;
+	background-color: #f7f7f7;
+	margin-bottom: 14px;
+	
+}
+.btnContactUs{
+	/* Style for "Прямоуголь" */
+	width: 140px;
+	height: 39px;
+	background-color: #f44336;
+	
+}
+
+.caseMap{
+	display:block;
+	width: fit-content;
+	margin: auto;
+	margin-top: 99px;
+}
+.textRouteMap{
+	width: 189px;
+	height: 36px;
+	
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 48px;
+	margin: 0px 40%;
+    position: relative;
+	
+}
+.map{
+	margin: 47px auto;
+    float: left;
+}
+.clr{
+	display:block;
+	margin-top:71px;
+}
+
+.footer {
+	width: 100%;
+	max-width:1920px;
+	min-width:600px;
+	margin: 0 auto;
+	height:71px;
+	background-color: #000000;
+	opacity: 1;
+	position: relative;
+	
+}
+.textFooterBlock{
+	display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.textFooter{
+	/* Style for "© 2017 His" */
+	height: 15px;
+	color: #ffffff;
+	font-family: "Roboto Condensed";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	/* Text style for "©,  2017 H" */
+	letter-spacing: 0.16px;
+}
+.textFooterExt{
+	/* Text style for "W3layouts" */
+	color: #f44336;
+	margin-left:0.16px;
+	margin-left:3px;
+}
+
+.product{
+	width:970px;
+	height:414px;
+	margin-top: 206px;
+    margin-left: 446px;
+}
+.fotoProduct{
+	width:470px
+	height:385px;
+	float:left;
+}
+.detailProduct{
+	weight:470px;
+	height:414px;
+	float:left;
+}
+.headerProduct{
+	/* Style for "Assasin’s" */
+	width: 291px;
+	height: 37px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	/* Text style for ", Rogue" */
+	
+	margin: 0 auto;
+	
+}
+.headerProductExt{
+	color: #f44336;
+	text-align: center;
+	height: 57px;
+}
+.priceProduct{
+	/* Style for "$29.99" */
+	/* Style for "$29.99" */
+	width: 187px;
+	height: 68px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 62px;
+	font-weight: 300;
+	line-height: 48.02px;
+	margin: 0 auto;
+}
+.btnBuyProduct{
+	/* Style for "Прямоуголь" */
+	width: 470px;
+	height: 62px;
+	background-color: #f44336;
+	
+	font-family: Poppins;
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.3px;
+}
+.productText{
+	/* Style for "The plot i" */
+	width: 463px;
+	height: 153px;
+	
+	color: #999999;
+	font-family: "Roboto Condensed";
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 24px;
+	/* Text style for "The plot i" */
+	letter-spacing: 0.12px;
+}
+
+.similarGames{
+	width: 1920px;
+	height: 684px;
+	background-color: #e3e3e3;
+	
+	display: inline-block;
+	margin-top: 178px;
+	
+}
+.headTextSimilar{
+	width: 258px;
+	height: 38px;
+	margin:49px auto;
+	margin-bottom:80px;
+	color: #f44336;
+	font-family: Poppins;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 36px;
+	
+}
+.blockOutSimilar{
+	margin:0 auto;
+	float:left;
+	width: 1174px;
+	margin: 0% 19%;
+}
+.blockSimilar{
+	width: 270px;
+	height: 378px;
+	float: left;
+    margin: 0% 1%;
+}
+.imgSg{
+	
+	/* Style for "81ppB9HHu7" */
+	width: 270px;
+	height: 378px;
+	
+	
+}
+.pSG{
+	/* Style for "MIDDLE-EAR" */
+	height: 32px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.14px;
+	text-align: center;
+}
+.btnBuySG{
+	width: 130px;
+	height: 30px;
+	background-color: #f44336;
+	color: #ffffff;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	/* Text style for "B, uy" */
+	letter-spacing: 0.14px;
+	margin: 0 25%;
+	
+}
+
+
+@media screen and (max-width:1920px){
+	
+	
+	.header{
+		width:auto;
+		height:auto;
+	}
+	
+	.headerIn{
+		margin: 0 auto;
+		display: block;
+		min-width: 971px;
+	}
+	.lineBlack{
+		width:100%
+		background-color:#000000;
+	}
+	
+	.formDiscount{
+		display:block;
+		position: relative;
+		margin: 0 2%;
+	}
+}
+
+
+@media screen and (max-width: 970px){
+	
+	.header{
+		width: auto;
+		height: auto;
+	}
+	.headerIn{
+		margin: 0 auto;
+		display: block;
+		min-width: 360px;
+	}
+	.nameGAMES{
+		color: #ffffff;
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 22.36px;
+		text-transform: uppercase;
+		letter-spacing: 30px;
+		position: no;
+		float:left;
+		margin-top: 45px;
+	}
+	.imgTel{
+		width: 17px;
+		height: 25px;
+		margin-top: 27px;
+		margin-left: 158px;
+		float:left;
+	}
+	.tel{
+		color: #ffffff;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 22.36px;
+		letter-spacing: 0.36px;
+		margin-left: 6px;
+		margin-top: 34px;
+		float:left;
+	}
+	.imgEmail{
+		width: 25px;
+		height: 19px;
+		margin-top: 32px;
+		margin-left: 39px;
+		float:left;
+	}
+	.emailAdress{
+		color: #ffffff;
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 22.36px;
+		
+		letter-spacing: 0.36px;
+		
+		margin-top: 35px;
+		margin-left: 14px;
+		float:left;
+	}
+	.formSearch{
+		width: 208px;
+		height: 38px;
+		border: 1px solid #ffffff;
+		margin-top:23px;
+		margin-left:38px;
+		display:block;
+		float:left;
+		margin: 21px 16px;
+	}
+	.textSearch{
+		width: 158px;
+		height: 104%;
+		background-color: #000000;
+		opacity: 0.7;
+		color: #ffffff;
+		font-family: "Roboto Condensed";
+		font-size: 17px;
+		font-weight: 400;
+		line-height: 22.36px;
+		letter-spacing: 0.36px;
+		border: 1px solid;
+		padding-left: 7px;
+		margin-left: -1px;
+		margin-top: -1px;
+		
+	}
+	.btnSearch {
+		
+		.menu {
+			
+			margin-left: 12px;
+			
+		}
+		
+		
+		.row{
+			float: left;
+			margin: 0% 0%;
+			width:50%;
+		}
+		
+		.textGallery {
+			width: 100%;
+			margin: 37px 30%;
+		}
+		
+		.moreGames{
+			width: 208px;
+			height: 38px;
+			border: 2px solid #000000;
+			float: left;
+			margin: 68px 29%;
+			position:relative;
+		}
+		
+		.footer {
+			width: 100%;
+			max-width:100%;
+			min-width:500px;
+			margin: 0 auto;
+			height:71px;
+			background-color: #000000;
+			opacity: 1;
+			position: relative;
+			
+		}
+		
+	}
+	
+	@media screen and (max-width: 360px){
+		.menuList{
+			display: contents;
+			left: 0px;
+			top: 0px;
+			padding-right: 0px;
+			
+			
+		}
+		
+	}			
