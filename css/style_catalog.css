@@ -390,7 +390,11 @@ clear:both;}
     float: none;
     margin-top: -6px;
 }
-
+.contactUsOutBlock{
+	display: inline-block;
+    width: 100%;
+    vertical-align: middle
+}
 .headerContactUs{
 	
 	margin: 98px 46%;
@@ -715,10 +719,17 @@ clear:both;}
 		
 	}
 	
+	.header{
+		width:auto;
+	}
+	
 	.headerIn{
 		margin: 0 12%;
 		display:inline-block;
 		min-width:971px;
+	}
+	.lineBlack{
+		width:100%
 	}
 	
 	.contactUs {
@@ -726,20 +737,29 @@ clear:both;}
 		float: none;
 		height: auto;
 	}
+.headerContactUs{
+	display:inherit;
+	
+}	
 	
 	.contactUsBlockIn1{
-	float: none;
+	float: left;
+	margin-left:15px;
 }
 .contactUsBlockIn2{
 	min-width: 472px;
     float: left;
-    margin-left: 115px;
+    margin-left: 15px;
 }
 	
 	.formDiscount{
 		display:block;
 		position: relative;
 		margin: 0 2%;
+	}
+	
+	.caseMap{
+		margin-left:15px;
 	}
 }
 
