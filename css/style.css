@@ -26,8 +26,10 @@ clear:both;}
 }
 .startPage{
 	height:725px;
-	
+	background-image:url(../img/bgMain.jpg);
 	display: flow-root;
+	background-repeat: no-repeat;
+    background-size: auto;
 }
 .header{
 	margin-top: 12px;
