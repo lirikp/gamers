@@ -264,28 +264,33 @@ clear:both;}
 
 
 .services{
-	min-height: auto;
-    min-width: auto;
+	height: auto;
+    background-color: #f7f7f7;
     display: block;
-    height: 564px;
-    width: 970px;
-    margin: 0 auto;
 }
+
 .nameServ{
-	
-    color: #f44336;
+	color: #f44336;
     font-family: Poppins;
     font-size: 36px;
     font-weight: 500;
     line-height: 48px;
-	min-width: auto;
+    /* min-width: auto; */
     text-align: center;
-    
+    margin: 0 auto;
+    padding-top: 92px;
+    /* display: block; */
+    margin-bottom: 82px;
+    /* float: none; */
+    width: 150px;
 }
 .servicesBlock{
 	float:left;
 }
-
+.allServices{
+	width:990px;
+	height:440px;
+	margin: 0 auto;}
 .headerRed{
 	/* Style for "Repreh Qui" */
 	white-space:nowrap;
@@ -695,14 +700,12 @@ clear:both;}
 	
 }
 .profession{
-	width: 69px;
-	height: 12px;
 	color: #838383;
-	font-family: "Roboto Condensed";
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 30px;
-	display: contents;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+	white-space:nowrap;
 }
 .contactNets{
 	width: 171px;
@@ -1108,13 +1111,13 @@ ul li a :active {
 	font-size: 36px;
 	font-weight: 500;
 	line-height: 48px;
-	margin: 0px 40%;
+	margin: 0px auto;
     position: relative;
 	
 }
 .map{
 	margin: 47px auto;
-    float: left;
+    text-align:center;
 }
 .clr{
 	display:block;
@@ -1439,21 +1442,13 @@ ul li a :active {
 		margin-top: -1px;
 		
 	}
-	.btnSearch {
-		
-		.menu {
-			
-			margin-left: 12px;
-			
-		}
-		
-		
+	.btnSearch {}		
+	.menu {margin-left: 12px;}
 		.row{
 			float: left;
 			margin: 0% 0%;
 			width:50%;
 		}
-		
 		.textGallery {
 			width: 100%;
 			margin: 37px 30%;
@@ -1467,7 +1462,6 @@ ul li a :active {
 			margin: 68px 29%;
 			position:relative;
 		}
-		
 		.footer {
 			width: 100%;
 			max-width:100%;
@@ -1492,7 +1486,4 @@ ul li a :active {
 			
 		}
 	}
-	.blockPersons {
-		width: 24%;
-	}
-	}							
+							
